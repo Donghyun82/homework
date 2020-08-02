@@ -1,0 +1,113 @@
+
+<!doctype html>
+<html lang="ko">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	crossorigin="anonymous"></script>
+
+	<title>환타스틱 쇼핑몰</title>
+	<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+	<style>
+	* {
+		font-family: 'Do Hyeon', sans-serif;
+	}
+	img {
+		width: 500px;
+		display: block;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.main{
+		width: 500px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	span{
+		font-size: 15px;
+	}
+	.option{
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.push{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+
+	}
+	</style>
+	<script>
+	function order(){
+		alert('주문이 완료되었습니다');
+	}
+
+	</script>
+</head>
+<body>
+	<img src="https://lh3.googleusercontent.com/XoZ2ye12_b9izQlqd-fUroOng5fjU4zv3cas817jKpRRq6uIDHLchgDMPXqUBHNesswKhf3haD8PiZuZCrvyyCp25ZPa8oEU5sC03zw_pH5feyZCXPftneVfPbx2qEzYywXFiEwqvXNF9TuWVQyXJYzQlTMWxtffaicYoI2R9dnj7tmoZbNtfz1CcACvpOzHq1PyiONDIU4NR3yz_suLUAv1hN642jtYhQVG8b3dw30vGKMWSk4HjGcHf9MbG7MTBb2tghqKP0GZIa22DtVhXR4GsAZ7Zd3JkyZy11-G3KKcbiHIwTcljE6h44_79hPoHo1VLMsul59i2efxI0myadrviZdVMRlMl8VI8enfO8fEAFCL2aHoARtBzdXrkQpD8CKXyf3jQ2NTXrwM8JwEiwYvLSpX_Uv0zOpUVwb4GENiqPVNGUmy1ph4qEos9xzrLqdSYz5zYJRyZTmLM_2jiRb4eaxEsmIqHlWoL5MXRaLpukh00Y45_GTav0d5aGTsF9MFSHt9IfbmCbIXFKN7TsLk8UYmB8DNZ1ZmOw1oWT5zo06N9j9xoeV-yaxjrHklXN8NcDJqoUusRZaHFr5HUwKOxqcarmiHk07AZ3HukRI9WnjfZ0imA8yLnQ0TbFsUFeJ_2Kq823KgkHkru3zHl5iby9m-GaeNINWQWL9ikAT4oZsPsr6HP8_HQDNo3A=w3256-h2444-no?authuser=0"
+	alt="쇼핑몰이미지">
+	<p></p>
+	<div class="main">
+		<h1>냉면을 팝니다 <span>가격:8,000원 / 한그릇</span></h1>
+		<p>
+			잘 빗은 머릿결처럼 고이고이 똬리를 튼 냉면의 모양새는 보는 것만으로도 만족감이 든다.
+			황해도 비법으로 만든 육수는 단맛이 돌고 색이 짙다.
+			가볍고 산뜻하게 입맛을 정리하는 경쾌한 맛.
+			면은 식감도 좋지만 시작부터 끝까지 유유히 느껴지는 향이 유별나게 다가온다.
+		</p>
+	</div>
+	<div class="option">
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="inputGroup-sizing-default">주문자 이름</span>
+			</div>
+			<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+		</div>
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<label class="input-group-text" for="inputGroupSelect01">수량</label>
+			</div>
+			<select class="custom-select" id="inputGroupSelect01">
+				<option selected>몇 그릇 드실래요?</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+		</div>
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="inputGroup-sizing-default">주소</span>
+			</div>
+			<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+		</div>
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="inputGroup-sizing-default">전화번호</span>
+			</div>
+			<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+		</div>
+			<button onclick="order()"type="button" class="btn btn-primary push">주문하기</button>
+	</div>
+
+</body>
+
+</html>
